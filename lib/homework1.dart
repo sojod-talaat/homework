@@ -55,7 +55,7 @@ class HomeWork extends StatelessWidget {
             ),
             ListTile(
               leading: Icon(Icons.mail),
-              title: Text('Mail'),
+              title: Text('sojodtalaat@gmail.com'),
             ),
             Divider(),
             ListTile(
@@ -64,7 +64,7 @@ class HomeWork extends StatelessWidget {
             ),
             ListTile(
               leading: Icon(Icons.people),
-              title: Text('People'),
+              title: Text('Connect Us'),
             ),
             ListTile(
               leading: Icon(Icons.local_offer),
