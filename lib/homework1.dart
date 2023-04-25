@@ -64,7 +64,7 @@ class HomeWork extends StatelessWidget {
             ),
             ListTile(
               leading: Icon(Icons.people),
-              title: Text('Connect Us'),
+              title: Text('Contact Us'),
             ),
             ListTile(
               leading: Icon(Icons.local_offer),
