@@ -74,23 +74,21 @@ class HomeWork extends StatelessWidget {
         ),
       ),
       body: Center(
-          child: Table(columnWidths: const {
-        0: FixedColumnWidth(150),
-        1: FixedColumnWidth(150),
-      }, children: [
-        TableRow(
+          child: Coulmn(
+     children: [
+        Row(
           children: [
             tableWidget('Subject', Colors.amber),
             tableWidget('Subject hours', Colors.amber)
           ],
         ),
-        TableRow(
+        Row(
           children: [
             tableWidget('Flutter', Colors.grey),
             tableWidget('3 hours', Colors.grey)
           ],
         ),
-        TableRow(children: [
+        Row(children: [
           tableWidget('testing', Colors.grey),
           tableWidget('3 hours', Colors.grey)
         ])
