@@ -74,8 +74,7 @@ class HomeWork extends StatelessWidget {
         ),
       ),
       body: Center(
-          child: Coulmn(
-     children: [
+          child: Column(children: [
         Row(
           children: [
             tableWidget('Subject', Colors.amber),
@@ -152,6 +151,7 @@ class HomeWork extends StatelessWidget {
 
 tableWidget(String value, Color color) {
   return Container(
+    width: 150,
     margin: const EdgeInsets.all(4),
     padding: const EdgeInsets.all(8),
     color: color,
