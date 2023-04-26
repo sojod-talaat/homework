@@ -73,25 +73,26 @@ class HomeWork extends StatelessWidget {
           ],
         ),
       ),
-      body: Center(
-          child: Column(children: [
+      body: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
         Row(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             tableWidget('Subject', Colors.amber),
             tableWidget('Subject hours', Colors.amber)
           ],
         ),
         Row(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             tableWidget('Flutter', Colors.grey),
             tableWidget('3 hours', Colors.grey)
           ],
         ),
-        Row(children: [
+        Row(mainAxisAlignment: MainAxisAlignment.center, children: [
           tableWidget('testing', Colors.grey),
           tableWidget('3 hours', Colors.grey)
         ])
-      ])),
+      ]),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.teal,
         onPressed: () {},
